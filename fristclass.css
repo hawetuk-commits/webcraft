@@ -1,0 +1,46 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+.homeContainer div {
+  border: solid 1px red;
+}
+.homeContainer .menuBar {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeContainer .menuBar ul {
+  list-style-type: none;
+}
+.homeContainer .menuBar ul li {
+  display: inline-flex;
+  /*border: solid 1px black; */
+  margin: 1rem;
+}
+.homeContainer .menuBar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.homeContainer .menuBar ul li a:hover {
+  color: gray;
+}
+.homeContainer .homeLogo {
+  display: flex;
+  justify-content: flex-start;
+  color: cadetblue;
+  font-size: 2rem;
+  padding: 2px;
+}
+.homeContainer .homeLogo .imageLogo {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.footercontainer{
+    
+}

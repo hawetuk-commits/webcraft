@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first Web Class</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homeContainer {
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 0;
+  margin: 100px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+  /* flex-direction: row */
+}
+.homeContainer div {
+  /* border: solid 1px red; */
+}
+.homeContainer .menuBar {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.homeContainer .menuBar ul {
+  list-style-type: none;
+}
+.homeContainer .menuBar ul li {
+  display: inline-flex;
+  /*border: solid 1px black; */
+  margin: 1rem;
+  padding: 10px;
+}
+.homeContainer .menuBar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.homeContainer .menuBar ul li a:hover {
+  color: gray;
+}
+.homeContainer .homeLogo {
+  display: flex;
+  justify-content:flex-start;
+  color: cadetblue;
+  font-size: 2rem;
+  
+  background-color: aquamarine;
+  gap: 0px;
+
+ 
+}
+.homeContainer .homeLogo .imageLogo {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  padding: 10px;
+}
+.homeContainer .imageLogo img {
+  width: 70px;
+  height: 50px;
+  border-radius: 70%;
+}
+.homeContainer .homeLogo .textLogo {
+  font-size: 1.7rem;
+ margin-top:5px;
+ padding:20px;
+ text-align:left;
+ margin-top:1px;
+}
+
+ 
+.footerContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  border:2px red solid;
+  background-image: url(bestie.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  color:white;
+  padding: 4em;
+  margin-top:200px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+}  
+.field{
+
+  color:white;
+  padding: 40px;
+  
+  margin:1px;
+
+
+}
+.field a{
+  display: block;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="homeContainer">
+      <div class="homeLogo">
+        <div class="imageLogo"><img src="b1.jpg" alt="web icon" /></div>
+        <div class="textLogo">
+          <h4>FirstWeb</h4>
+        </div>
+      </div>
+      <div class="menuBar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Group Member</a></li>
+          <li><a href="">Project</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerContainer">
+      <div class="field">
+        <h4>visit</h4>
+        <a href="#facebook">facebook</a>
+         <a href="#twiter">twiter</a>
+         <a href="#whatspa">whatsap</a>
+
+      </div>
+      <div class="field">
+        <h4>ourlocation</h4>
+        <h4>jimma</h4>
+        
+      </div>
+      <div class="field">
+        <h4>project</h4>
+      <a href="#resources">html</a></div>
+
+      <div class="field">news</div>
+
+    </div>
+  </body>
+</html>
